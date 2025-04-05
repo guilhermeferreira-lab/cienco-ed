@@ -14,58 +14,58 @@ int main()
     cout<<"À vista em dinheiro ou Pix, com 10% de desconto  (1)" << endl;
     cout<<"À vista em dinheiro ou Pix, com 5% de desconto   (2)" << endl;
     cout<<"Em duas vezes ,preço normal da etiqueta sem jutos(3)" << endl;
-    cout<<"Em três vezes, preço de etiqueta com acréscimo de 10%(4)" << end;
-    cin << me;
+    cout<<"Em três vezes, preço de etiqueta com acréscimo de 10%(4)" << endl;
+    cin >> me;
 
     switch (me)
     {
     case 1:
         cout <<"escolha uma forma de pagamento :"<< endl;
-        cout <<"dinheiro (1)" << endl;
-        cout <<"Pix      (2)" << endl;
+        cout <<"dinheiro (D)" << endl;
+        cout <<"Pix      (P)" << endl;
         cin >> pagamento;
+        break;
 
         switch(pagamento)
         {
-        case 1:
+        case 'D':
             reajuste = valor * 10/100;
             finalvalor = valor - reajuste;
 
         cout <<"esse é o desconto :" << finalvalor << endl;
         break;
 
-        case 2:
+        case 'P':
             reajuste = valor * 10/100;
             finalvalor = valor - reajuste;
 
         cout <<"esse é o desconto :" << finalvalor << endl;
-        break;
         }
         case 2:
-             cout <<"escolha uma forma de pagamento :"<< endl;
-        cout <<"dinheiro (1)" << endl;
-        cout <<"Pix      (2)" << endl;
+        cout <<"escolha uma forma de pagamento :"<< endl;
+        cout <<"dinheiro (REAL)" << endl;
+        cout <<"Pix      (PIX)" << endl;
         cin >> pagamento;
 
         switch(pagamento)
         {
-        case 1:
+        case 'REAL':
             reajuste = valor * 10/100;
             finalvalor = valor - reajuste;
 
         cout <<"esse é o desconto :" << finalvalor << endl;
         break;
 
-        case 2:
+        case 'PIX':
             reajuste = valor * 10/100;
             finalvalor = valor - reajuste;
 
         cout <<"esse é o desconto :" << finalvalor << endl;
-        break;
     }
         case 3:
             finalvalor = valor / 2;
 
             cout << "valor das duas parcelas :"<< finalvalor << endl;
-            break;
+    }
 }
+
