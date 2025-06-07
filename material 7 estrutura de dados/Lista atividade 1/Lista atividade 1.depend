@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1749257778 source:c:\users\basica_14\documents\cienco-ed\material 7 estrutura de dados\lista atividade 1\main.cpp
+	<iostream>
+	<list>
+	<iterator>
+
