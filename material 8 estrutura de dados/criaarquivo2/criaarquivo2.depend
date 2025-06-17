@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1749858213 source:c:\users\basica_14\documents\cienco-ed\material 8 estrutura de dados\criaarquivo2\main.cpp
+	<iostream>
+	<fstream>
+
